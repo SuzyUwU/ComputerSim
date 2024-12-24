@@ -2,9 +2,9 @@ package View.SideMenu;
 
 import javax.swing.*;
 import java.awt.*;
-import Controler.Apps.Apps;
-import Variables.UserProfile;
-import Variables.ComputerApp;
+import Controller.Apps.Apps;
+import Models.UserProfile;
+import Models.ComputerApp;
 import View.Menus.MainMenuGUI;
 
 public class UninstallAppMenuGUI {

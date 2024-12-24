@@ -3,9 +3,9 @@ package View.SideMenu;
 import javax.swing.*;
 import java.awt.*;
 import java.util.List;
-import Controler.Apps.Apps;
-import Variables.ComputerApp;
-import Variables.UserProfile;
+import Controller.Apps.Apps;
+import Models.ComputerApp;
+import Models.UserProfile;
 import View.Menus.MainMenuGUI;
 
 public class DisplayInstalledAppsGUI {

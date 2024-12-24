@@ -1,7 +1,7 @@
-package Controler.Data;
+package Controller.Data;
 
-import Variables.ComputerApp;
-import Variables.UserProfile;
+import Models.ComputerApp;
+import Models.UserProfile;
 
 import java.io.*;
 import java.util.ArrayList;

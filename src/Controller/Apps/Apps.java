@@ -1,6 +1,6 @@
-package Controler.Apps;
+package Controller.Apps;
 
-import Variables.ComputerApp;
+import Models.ComputerApp;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -4,9 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-import Controler.Apps.Apps;
-import Variables.UserProfile;
-import Variables.ComputerApp;
+import Controller.Apps.Apps;
+import Models.UserProfile;
+import Models.ComputerApp;
 import View.Menus.MainMenuGUI;
 
 public class InstallAppMenuGUI {

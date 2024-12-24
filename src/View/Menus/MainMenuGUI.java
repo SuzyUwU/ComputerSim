@@ -2,9 +2,9 @@ package View.Menus;
 
 import javax.swing.*;
 import java.awt.*;
-import Controler.Apps.Apps;
-import Controler.Data.DataHandler;
-import Variables.UserProfile;
+import Controller.Apps.Apps;
+import Controller.Data.DataHandler;
+import Models.UserProfile;
 import View.SideMenu.DisplayInstalledAppsGUI;
 import View.SideMenu.InstallAppMenuGUI;
 import View.SideMenu.UninstallAppMenuGUI;

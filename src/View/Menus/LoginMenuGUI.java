@@ -3,8 +3,8 @@ package View.Menus;
 import javax.swing.*;
 import java.awt.*;
 
-import Controler.Apps.AppFactory;
-import Variables.UserProfile;
+import Controller.Apps.AppFactory;
+import Models.UserProfile;
 
 public class LoginMenuGUI {
     private static UserProfile userProfile = null;

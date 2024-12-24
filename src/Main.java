@@ -1,5 +1,5 @@
-import Variables.UserProfile;
-import Controler.Data.DataHandler;
+import Models.UserProfile;
+import Controller.Data.DataHandler;
 import View.Menus.LoginMenuGUI;
 import View.Menus.MainMenuGUI;
 

@@ -1,4 +1,4 @@
-package Controler.Misc;
+package Controller.Misc;
 
 public class Delay {
     public static void delay(int milliseconds) {

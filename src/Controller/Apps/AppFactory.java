@@ -1,10 +1,10 @@
-package Controler.Apps;
+package Controller.Apps;
 
-import Controler.Data.DataHandler;
-import Variables.ComputerApp;
-import Variables.GameApp;
-import Variables.SocialApp;
-import Variables.UtilityApp;
+import Controller.Data.DataHandler;
+import Models.ComputerApp;
+import Models.GameApp;
+import Models.SocialApp;
+import Models.UtilityApp;
 
 import java.util.List;
 

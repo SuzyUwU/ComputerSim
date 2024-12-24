@@ -1,4 +1,4 @@
-package Variables;
+package Models;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
