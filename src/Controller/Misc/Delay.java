@@ -6,7 +6,7 @@ public class Delay {
             Thread.sleep(milliseconds);
         } catch (InterruptedException e) {
             System.out.println("Delay interrupted: " + e.getMessage());
-            Thread.currentThread().interrupt(); // Restore the interrupted status
+            Thread.currentThread().interrupt();
         }
     }
 }

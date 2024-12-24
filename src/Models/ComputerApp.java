@@ -3,9 +3,8 @@ package Models;
 import java.io.Serializable;
 
 public class ComputerApp implements Serializable {
-        // Attributes
         private final String appName;
-        private final int appSize; // size in MB
+        private final int appSize;
         private boolean isInstalled;
         private final boolean isFree;
         private final String appType;
@@ -44,7 +43,6 @@ public class ComputerApp implements Serializable {
             System.out.println(appName + " has been uninstalled.");
         }
 
-        // Display App Info
         public void displayAppInfo() {
             System.out.println("App Name: " + appName);
             System.out.println("App Size: " + appSize + " MB");

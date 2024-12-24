@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 
 public class UserProfile implements Serializable {
-    private final HashMap<String, String> userCredentials; // Stores username and password
-    private final HashMap<String, List<String>> userInstalledApps; // Stores username and installed apps
+    private final HashMap<String, String> userCredentials;
+    private final HashMap<String, List<String>> userInstalledApps;
 
     public UserProfile() {
         userCredentials = new HashMap<>();

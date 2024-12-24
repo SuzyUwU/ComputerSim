@@ -6,7 +6,7 @@ public class SocialApp extends ComputerApp implements Serializable {
     private final int userCount;
 
     public SocialApp(String appName, int appSize, boolean isInstalled, boolean isFree, int userCount) {
-        super(appName, appSize, isInstalled, isFree, "Social");  // Pass "Social" as appType
+        super(appName, appSize, isInstalled, isFree, "Social");
         this.userCount = userCount;
     }
 

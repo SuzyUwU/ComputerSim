@@ -9,8 +9,8 @@ import Models.UserProfile;
 import View.Menus.MainMenuGUI;
 
 public class DisplayInstalledAppsGUI {
-    private static final int ITEMS_PER_PAGE = 5; // Number of items per page
-    private int currentPage = 0; // Current page index
+    private static final int ITEMS_PER_PAGE = 5;
+    private int currentPage = 0;
     private List<ComputerApp> installedApps;
     private final DefaultListModel<String> listModel;
     private final JButton prevButton;

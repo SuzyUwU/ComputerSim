@@ -27,7 +27,7 @@ public class AppDetails extends ComputerApp implements Serializable {
 
     @Override
     public void displayAppInfo() {
-        super.displayAppInfo();  // Call the parent class method for basic details
+        super.displayAppInfo();
         System.out.println("App Location: " + appLocation);
         System.out.println("Installed Time: " + (installedTime != null ? installedTime : "Not Installed"));
     }

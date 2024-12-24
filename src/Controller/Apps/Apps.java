@@ -46,15 +46,14 @@ public class Apps {
     }
 
     public static void installAppByIndex(int appIndex, List<ComputerApp> installableApps) {
-        // Adjust index for zero-based array access
         if (appIndex < 1 || appIndex > installableApps.size()) {
             System.out.println("Invalid selection. Please try again.");
             return;
         }
 
-        ComputerApp appToInstall = installableApps.get(appIndex - 1); // Convert to zero-based index
+        ComputerApp appToInstall = installableApps.get(appIndex - 1);
         if (!appToInstall.isInstalled()) {
-            appToInstall.installApp(); // Install the app
+            appToInstall.installApp();
         } else {
             System.out.println(appToInstall.getAppName() + " is already installed.");
         }
@@ -75,7 +74,7 @@ public class Apps {
 
     public static void installApp(ComputerApp app) {
         if (app != null && !app.isInstalled()) {
-            app.installApp(); // Assuming your app object has this method
+            app.installApp();
         } else {
             System.out.println("App is already installed.");
         }
@@ -83,7 +82,7 @@ public class Apps {
 
     public static void uninstallApp(ComputerApp app) {
         if (app != null && app.isInstalled()) {
-            app.uninstallApp(); // Assuming the app object has this method
+            app.uninstallApp();
         } else {
             System.out.println("App is not installed or invalid.");
         }

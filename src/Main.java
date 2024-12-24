@@ -12,7 +12,7 @@ public class Main {
         LoginMenuGUI loginMenu = new LoginMenuGUI(userProfile);
         loginMenu.out();
 
-        if (LoginMenuGUI.createAndShowGUI()) {
+        if (LoginMenuGUI.ShowGUI()) {
             String currentUsername = MainMenuGUI.getCurrentUsername();
             MainMenuGUI mainMenu = new MainMenuGUI(userProfile, currentUsername);
             mainMenu.createAndShowGUI();
