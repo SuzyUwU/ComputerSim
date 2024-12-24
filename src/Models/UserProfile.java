@@ -27,19 +27,4 @@ public class UserProfile implements Serializable {
         userInstalledApps.put(username, new ArrayList<>());
     }
 
-    public List<String> getInstalledApps(String username) {
-        return userInstalledApps.getOrDefault(username, new ArrayList<>());
-    }
-
-    public void setInstalledApps(String username, List<String> apps) {
-        userInstalledApps.put(username, apps);
-    }
-
-    public HashMap<String, String> getUserCredentials() {
-        return userCredentials;
-    }
-
-    public HashMap<String, List<String>> getUserInstalledApps() {
-        return userInstalledApps;
-    }
 }
