@@ -46,25 +46,21 @@ public class MainMenuGUI {
         panel.add(uninstallAppButton);
         panel.add(logoutButton);
 
-        // Action for Display Apps button
         displayAppsButton.addActionListener(e -> {
-            frame.dispose(); // Close the main menu
+            frame.dispose();
             new DisplayInstalledAppsGUI(userProfile, currentUsername);
         });
 
-        // Action for Install App button
         installAppButton.addActionListener(e -> {
-            frame.dispose(); // Close the main menu
+            frame.dispose();
             new InstallAppMenuGUI(userProfile, currentUsername);
         });
 
-        // Action for Uninstall App button
         uninstallAppButton.addActionListener(e -> {
-            frame.dispose(); // Close the main menu
+            frame.dispose();
             new UninstallAppMenuGUI(userProfile, currentUsername);
         });
 
-        // Action for Logout button
         logoutButton.addActionListener(e -> {
             JOptionPane.showMessageDialog(frame, "Saving data...");
             DataHandler.saveApps(Apps.appList);
