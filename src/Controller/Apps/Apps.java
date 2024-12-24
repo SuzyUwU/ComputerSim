@@ -35,6 +35,7 @@ public class Apps {
         return installedApps;
     }
 
+    @Deprecated
     public static List<String> getInstalledAppNames() {
         List<String> installedAppNames = new ArrayList<>();
         for (ComputerApp app : appList) {
@@ -45,6 +46,7 @@ public class Apps {
         return installedAppNames;
     }
 
+    @Deprecated
     public static void installAppByIndex(int appIndex, List<ComputerApp> installableApps) {
         if (appIndex < 1 || appIndex > installableApps.size()) {
             System.out.println("Invalid selection. Please try again.");
@@ -59,6 +61,7 @@ public class Apps {
         }
     }
 
+    @Deprecated
     public static void uninstallAppByIndex(int index) {
         if (index < 1 || index > appList.size()) {
             System.out.println("Invalid app number.");
